@@ -1,11 +1,96 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>My Developer Page</title>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
+  <title>Worxmart Studioz | Android App Developer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      height: 100vh;
+    }
+
+    /* Background image */
+    .hero {
+      height: 100vh;
+      background: 
+        linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+        url("https://images.unsplash.com/photo-1511707171634-5f897ff02aa9");
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .content {
+      max-width: 900px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 40px;
+    }
+
+    .text {
+      max-width: 400px;
+    }
+
+    .text h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    .text p {
+      font-size: 18px;
+      line-height: 1.5;
+    }
+
+    /* Phone icon styling */
+    .phone-icon svg {
+      width: 220px;
+      height: auto;
+      filter: drop-shadow(0 12px 30px rgba(0,0,0,0.6));
+    }
+
+    footer {
+      position: absolute;
+      bottom: 15px;
+      width: 100%;
+      text-align: center;
+      font-size: 14px;
+      color: #ddd;
+    }
+  </style>
 </head>
 <body>
-  <h1>Welcome</h1>
-  <p>This website is the official developer page for my Android applications.</p>
-  <p>Contact: studiozworxmart@gmail.com</p>
+
+<div class="hero">
+  <div class="content">
+
+    <!-- Developer text -->
+    <div class="text">
+      <h1>Worxmart Studioz</h1>
+      <p>App developer creating fun, lightweight and user-friendly mobile applications.</p>
+    </div>
+
+    <!-- Default phone icon (no image file needed) -->
+    <div class="phone-icon">
+      <svg viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+        <path d="M17 1H7C5.9 1 5 1.9 5 3v18c0 1.1.9 2 2 2h10c1.1 0 2-.9 2-2V3c0-1.1-.9-2-2-2zm0 18H7V5h10v14z"/>
+      </svg>
+    </div>
+
+  </div>
+
+  <footer>
+    © 2026 Worxmart Studioz | Contact: studiozworxmart@gmail.com
+  </footer>
+</div>
+
 </body>
 </html>
